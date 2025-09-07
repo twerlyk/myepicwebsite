@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Local Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>epic website</h1>
+    <nav>
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+      <a href="#projects">projects</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home">
+      <h2>welcome</h2>
+      <p>this is my second personal website where i will be uploading my projects and other stuff</p>
+    </section>
+
+    <section id="about">
+      <h2>about me</h2>
+      <p>my name is sal, i love art and i am a newbie web developer<br>its a little known fact but i am actually the best programmer ever</p>
+    </section>
+
+    <section id="contact">
+      <h2>contact</h2>
+      <p>discord: salmisc<br>email: salmakescoolstuff@realaddress.com</p>
+    </section>
+
+  <section id="projects">
+      <h2>projects</h2>
+      <p><u>completed projects:</u><br>1. local personal website<br><u>projects i want to do:</u><br>1. simple calculator<br>2. online personal website with multiple pages</p>
+    </section>
+
+    <img src="images/chinathumb.png">
+  </main>
+
+  <footer class="container">
+    <small>© <span id="year"></span> sal inc.</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
